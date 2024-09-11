@@ -20,12 +20,12 @@ class LoginScreen extends StatelessWidget {
               SizedBox(height: 20),
               TextField(
                 controller: userNameController,
-                decoration: InputDecoration(labelText: "UserName", border: OutlineInputBorder()),
+                decoration: InputDecoration(labelText: "UserName", border: OutlineInputBorder(), labelStyle: TextStyle(color: Colors.blue)),
               ),
               SizedBox(height: 20),
               TextField(
                 controller: passwordController,
-                decoration: InputDecoration(labelText: "Password", border: OutlineInputBorder()),
+                decoration: InputDecoration(labelText: "Password", border: OutlineInputBorder(), labelStyle: TextStyle(color: Colors.blue)),
                 obscureText: true,
               ),
               SizedBox(height: 20),
